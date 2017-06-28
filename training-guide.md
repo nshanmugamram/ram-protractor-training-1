@@ -14,6 +14,7 @@
    * AngularJS
    * Jasmine
 * Protractor Jasmine Screenshot Reporter
+* Exercises
 * Future objectives
    *  Understanding Promises and promise-based tests  
    *  Debugging Protractor Tests
@@ -89,6 +90,15 @@ There are two main topics in terms of prerequisities skill, AngularJS and [Jasmi
 ### Learning materials
 
 * [Protractor Screenshot Reporter] (https://www.npmjs.com/package/protractor-jasmine2-screenshot-reporter)
+
+## Exercises
+
+I have added the following exercises on `../spec/exercises`. The minimum scenarios we could cover are defined within each file.
+
+	- app.spec.ts
+	- exercise1.spec.ts
+	- exercise2.spec.ts
+	- exercise3.spec.ts
 
 ## Debugging
 
