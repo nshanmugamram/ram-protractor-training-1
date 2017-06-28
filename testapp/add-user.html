@@ -1,0 +1,39 @@
+<h4>New user info</h4>
+
+<form name="form" class="form-horizontal" role="form" novalidate>
+      <!-- NAME -->
+      <div class="form-group">
+        <div class="col-sm-4">
+          <label required>Name</label>
+          <input type="text" id="name" ng-model="ctrl.user.name" class="form-control" autocomplete="off" 
+                      name="name" required/>
+          <span ng-show="form.name.$dirty && form.name.$invalid">Required</span>      
+        </div>
+      </div>
+
+      <!-- EMAIL -->
+      <div class="form-group">
+        <div class="col-sm-4">
+          <label>Email</label>
+          <input type="email" id="email" ng-model="ctrl.user.email" class="form-control" name="emailAdd" 
+                      autocomplete="off"  required/>
+          <span ng-show="form.emailAdd.$dirty && form.emailAdd.$invalid">Required valid email address</span>            
+        </div>
+      </div>
+      
+      <!-- Phone no -->
+      <div class="form-group">
+        <div class="col-sm-4">
+          <label>Phone</label>
+          <input type="tel" id="phone" ng-model="ctrl.user.phone" class="form-control" autocomplete="off"/>
+        </div>
+      </div>
+
+      <button id="save-button" ng-click="ctrl.save()" ng-if="!ctrl.isSaving"
+          ng-disabled="form.$invalid"
+          class="waves-effect waves-light btn blue darken-4">
+          Save
+      </button>
+
+    <loading-bar ng-if="ctrl.isSaving"></loading-bar>
+</form>

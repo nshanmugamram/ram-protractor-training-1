@@ -1,0 +1,38 @@
+{
+  "name": "series5-protractor",
+  "version": "0.0.0",
+  "author": "Series5 Team",
+  "license": "RAM",
+  "description": "Webdriver E2E test wrapper for Series5 application.",
+  "dependencies": {
+    "angular": "^1.4.7",
+    "angular-resource": "^1.4.7",
+    "angular-route": "^1.4.7",
+    "express": "^4.13.3",
+    "faker": "^3.0.1",
+    "http-server": "^0.8.5",
+    "jasmine": "^2.6.0",
+    "live-server": "^0.8.2",
+    "lodash": "^3.10.1",
+    "open": "0.0.5",
+    "protractor": "^5.1.2",
+    "protractor-jasmine2-screenshot-reporter": "^0.3.2",
+    "shx": "^0.1.4",
+    "ts-node": "^3.1.0",
+  "typescript": "^2.3.4",
+    "underscore.string": "^3.3.4",
+    "@types/node": "^6.0.71"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.41",
+    "@types/jasminewd2": "^2.0.0",
+    "@types/selenium-webdriver": "^2.53.36"
+  },
+  "scripts": {
+    "postinstall": "webdriver-manager update --ie32",
+    "tsc": "tsc",
+    "pree2e": "shx rm -rf reports",
+    "e2e": "protractor ./conf.js & node ./scripts/open-e2e-report.js",
+    "server": "node ./server.js"
+  }
+}

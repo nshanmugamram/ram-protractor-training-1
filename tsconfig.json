@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "inlineSourceMap": false,
+        "inlineSources": true,
+        "sourceMap": true,
+        "declaration": false,
+        "watch": false,
+        "removeComments": false,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noEmitOnError": true,
+        "alwaysStrict": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "strictNullChecks": false,
+        "experimentalDecorators": true,
+        "outDir": "./built/end2end/js", 
+        "skipLibCheck": true, // Skip type checking the library code        
+        "types": [ 
+            "jasmine", "node",
+            "selenium-webdriver"
+        ]
+    },             
+    "exclude": [
+        "built",
+        "node_modules"                             
+    ]
+}
