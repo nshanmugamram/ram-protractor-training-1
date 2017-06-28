@@ -112,8 +112,4 @@ I have added the following exercises on `../spec/exercises`. The minimum scenari
 
 * Demo in VSC:
     * Show the tests and the wrapper objects in Typescript.
-    * Step through code. (note: must be targeting `commonjs`)
- 
-
-  
-
+    * Step through code. (note: must be targeting `commonjs`) 
