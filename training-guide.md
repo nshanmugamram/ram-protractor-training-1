@@ -93,7 +93,7 @@ There are two main topics in terms of prerequisities skill, AngularJS and [Jasmi
 
 ## Exercises
 
-I have added the following exercises on `../spec/exercises`. The minimum scenarios we could cover are defined within each file.
+I have added the following exercises on `../spec/exercises`. The minimum scenarios we could cover are defined within each file in the project.
 
 	- app.spec.ts
 	- exercise1.spec.ts
