@@ -19,12 +19,12 @@
     "protractor-jasmine2-screenshot-reporter": "^0.3.2",
     "shx": "^0.1.4",
     "ts-node": "^3.1.0",
-  "typescript": "^2.3.4",
+    "typescript": "^2.3.4",
     "underscore.string": "^3.3.4",
     "@types/node": "^6.0.71"
   },
   "devDependencies": {
-    "@types/jasmine": "^2.5.41",
+    "@types/jasmine": "^2.5.45",
     "@types/jasminewd2": "^2.0.0",
     "@types/selenium-webdriver": "^2.53.36"
   },
