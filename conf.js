@@ -38,7 +38,7 @@ exports.config = {
     directConnect: true,
     framework: 'jasmine',
 
-    baseUrl: 'http://localhost:9000/testapp/',    
+    baseUrl: 'http://localhost:9000/#/',    
 
     jasmineNodeOpts: {
         defaultTimeoutInterval: 30000,
