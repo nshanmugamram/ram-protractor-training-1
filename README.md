@@ -74,7 +74,7 @@ The following tools will automatically be installed in your project directory (R
 		- The existing screenshots and the summary removed automatically when the test runs.
 			
 	- `npm run tsc`
-		- Compile the tests only and produce the corresponding JavaScript files in ./build/report in your project directory.
+		- Compile the tests only and produce the corresponding JavaScript files in ./built/report in your project directory.
 		
 
 ## Visual Studio Code Integration
