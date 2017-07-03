@@ -1,4 +1,4 @@
-build/
+built/
 node_modules/
 typings/
 reports/
